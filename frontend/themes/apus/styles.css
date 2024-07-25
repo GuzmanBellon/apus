@@ -17,12 +17,28 @@
  */
 
 :root {
-    --event-background-color: #007e89;
-    --event-text-color: #003861;
-    --event-running-session-color: #9bf4ff;
+
+    
+    --clr-green-900:hsl(186 21% 9% / 1);;
+    --clr-green-700:hsl(186 100% 10% / 1);
+    
+    --clr-limegreen-600: hsl(122 74% 72% / 1);
+
+    --clr-skyblue-300: hsl(189 74% 72% / 1);
+    --clr-skyblue-100: hsl(210 5% 91% / 1);
+
+    --clr-black: hsl(0 0 0 / 1);
+
+
+
+
+
+    --event-background-color: var(--clr-black);
+    --event-text-color: var(--clr-skyblue-100);
+    --event-running-session-color:var(--clr-green-700);
     --event-next-session-color: #62d7e3;
     --event-closed-room-color: #5da6b2;
-    --event-room-border: none;
+    --event-room-border: #84ed88 1px solid;
 
     --social-background-color: #1aa3b1;
     --social-text-color: #003861;
